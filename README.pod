@@ -53,6 +53,7 @@ xx. Connect from web. use port 8081. Create a new user with a password and some 
 
 There are some external dependencies that need installation before usage.
 
+	cpanm POE IRC::Utils Crypt::PasswdMD5 POE::Filter::IRCD Net::Netmask POE::Component::Syndicator DDP SQL::Abstract Redis POE::Component::Client::Ident::Agent POE::Component::Client::DNS DateTime::Precise
 Redis
 
 Postgresql
